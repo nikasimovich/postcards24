@@ -3,19 +3,22 @@ html {
 }
 
 body {
-  background-color: #F8F6F3;
   margin:50px 0 0 0;
   font-family: "Crimson Text", serif;
 }
 
 
 h1 {
-  font-family: "Crimson Text", serif;
-  font-size:6vh;
+  font-family: "Cutive Mono", monospace;
+  font-size:5vh;
   line-height:1.1;
   font-weight: normal;
   text-align:center;
   margin-bottom:5px;
+}
+
+.intro h1 {
+  font-size:8vh;
 }
 
 .hp {
@@ -29,7 +32,7 @@ h1 {
 }
 
 .buttons a {
-  background-color: black;
+  background-color: #033896;
   padding: .5rem .75rem;
   font-family: 'Karla', sans-serif;
   font-size: 15px;
@@ -86,14 +89,14 @@ hr {
 
 /* Alternate background colors */
 .module:nth-of-type(odd) {
-  background-color: #F8F6F3; /* Original background */
+  background-color: white; /* Original background */
   color: black; /* Original text color */
 }
 
 /* Full-bleed background for even modules, but keep content centered */
 .module:nth-of-type(even) {
-  background-color: #838383; /* Full-bleed blue background */
-  color: white; /* Change text color */
+  background-color: black; /* Full-bleed blue background */
+  color:white;
   margin: 0;
   padding: 50px 0;
   width: 100vw; /* Full-bleed width */
@@ -112,8 +115,9 @@ hr {
 }
 
 .intro {
-  background-color: #ffdc27;
-  height: 100vh;
+  background-color: #033896;
+  color:lightblue;
+  height: 80vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -155,7 +159,7 @@ a:hover {
 }
 
 h5 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Cutive Mono", monospace;
   font-size: 3vh;
   margin-bottom: 25px;
 }
