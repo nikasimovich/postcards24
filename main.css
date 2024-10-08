@@ -160,9 +160,10 @@ a:hover {
 }
 
 h5 {
-  font-family: "Cutive Mono", monospace;
-  font-size: 3vh;
-  margin-bottom: 25px;
+  font-family: 'Karla', sans-serif;
+  font-size:3vh;
+  letter-spacing:1px;
+  margin-bottom:25px;
 }
 
 .pullquote {
