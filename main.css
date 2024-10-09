@@ -27,7 +27,7 @@ h1 {
 }
 
 .hphead {
-  background-color: black;
+  background-color: #033896;
   width: 100%;
   padding: 100px 0;
 }
@@ -174,7 +174,7 @@ h5 {
 
 footer {
   height: 20px;
-  background-color: black;
+  background-color: #033896;
   margin: 0;
   padding: 0;
 }
@@ -207,4 +207,19 @@ video {
   .footer {
     max-width:80%;
   }
+}
+
+/* Keyframes for smooth scroll animation */
+@keyframes fadeIn {
+  0% {
+    background-color:#031536;
+  }
+  100% {
+    background-color:#033896;
+  }
+}
+
+/* Class for smoother animation */
+.animate{
+  animation: fadeIn 15s ease-out alternate infinite;
 }
