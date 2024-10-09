@@ -134,3 +134,16 @@ img {
 video {
   width: 100%;
 }
+
+a.selected{
+  background-color:lightblue !important;
+}
+
+.buttons a {
+  background-color: white;
+  padding: .5rem .75rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  color:#033896;
+}
+
